@@ -123986,7 +123986,9 @@ o=d.c
 if(o!=null)l.m(0,"Authorization","Bearer "+A.k(o))
 n=d.f
 if(n==null){o=t.N
-n=A.v(o,o)}m=A.di(b,0,null)
+n=A.v(o,o)}o=d.d
+if(o!=null){o.toString
+n.m(0,"redirect_to",o)}m=A.di(b,0,null)
 o=A.dd(m.gfe(),t.N,t.z)
 o.O(0,n)
 s=3
@@ -124276,9 +124278,9 @@ break
 case 10:case 6:return A.q(null,r)
 case 1:return A.p(p.at(-1),r)}})
 return A.r($async$oz,r)},
-DD(a){return this.aVY(a)},
-aVY(a){var s=0,r=A.t(t.H),q=this,p,o,n,m,l
-var $async$DD=A.o(function(b,c){if(b===1)return A.p(c,r)
+DD(a,b){return this.aVY(a,b)},
+aVY(a,b){var s=0,r=A.t(t.H),q=this,p,o,n,m,l
+var $async$DD=A.o(function(c,d){if(c===1)return A.p(d,r)
 for(;;)switch(s){case 0:s=q.CW===B.jC?2:4
 break
 case 2:p=A.buU()
@@ -124290,7 +124292,7 @@ break
 case 4:o=null
 case 3:n=t.N
 m=A.a9(["captcha_token",null],n,t.u)
-l=A.Bj(A.a9(["email",a,"gotrue_meta_security",m,"code_challenge",o,"code_challenge_method",o!=null?"s256":null],n,t.X),q.f,null,null,null,null)
+l=A.Bj(A.a9(["email",a,"gotrue_meta_security",m,"code_challenge",o,"code_challenge_method",o!=null?"s256":null],n,t.X),q.f,null,null,null,b)
 s=6
 return A.n(q.gtz().of(0,q.e+"/recover",B.ht,l),$async$DD)
 case 6:return A.q(null,r)}})
@@ -132136,7 +132138,7 @@ for(;;)switch(s){case 0:n=B.c.cu(p.x.a.a)
 if(n.length===0){p.S(new A.b2N(p))
 s=1
 break}s=3
-return A.n(p.gi4().dY(0,$.i2(),t.R).gfl().DD(n),$async$H7)
+return A.n(p.gi4().dY(0,$.i2(),t.R).gfl().DD(n,"https://tanoguchi28-cpu.github.io/sports-reconditioning/"),$async$H7)
 case 3:o=p.c
 if(o!=null)o.ac(t.J).f.hR(B.aio)
 case 1:return A.q(q,r)}})
