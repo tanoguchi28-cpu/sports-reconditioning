@@ -132289,8 +132289,8 @@ r=s.z
 r.P$=q
 r.I$=0
 s.aA()},
-wB(){var s=0,r=A.t(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a,a0
-var $async$wB=A.o(function(a1,a2){if(a1===1){o.push(a2)
+wB(){var s=0,r=A.t(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
+var $async$wB=A.o(function(a2,a3){if(a2===1){o.push(a3)
 s=p}for(;;)switch(s){case 0:if(!m.w.gZ().rV()){s=1
 break}m.S(new A.b9s(m))
 p=4
@@ -132304,7 +132304,7 @@ c=m.x
 b=t.N
 s=7
 return A.n(h.zy(A.a8(["full_name",B.c.cs(c.a.a)],b,t.z),f,d),$async$wB)
-case 7:k=a2
+case 7:k=a3
 if(k.b==null){m.S(new A.b9t(m))
 n=[1]
 s=5
@@ -132320,10 +132320,15 @@ n.push(6)
 s=5
 break
 case 4:p=3
-a0=o.pop()
-h=A.a5(a0)
+a1=o.pop()
+h=A.a5(a1)
 if(h instanceof A.lk){j=h
-m.S(new A.b9v(m,j))}else{i=h
+h={}
+a0=h.a=j.a
+if(B.c.q(a0,"Failed to decode")||B.c.q(a0,"decode error"))h.a="\u30b5\u30fc\u30d0\u30fc\u306b\u63a5\u7d9a\u3067\u304d\u307e\u305b\u3093\u3002\u3057\u3070\u3089\u304f\u5f85\u3063\u3066\u304b\u3089\u518d\u8a66\u884c\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n(\u8a73\u7d30: "+j.a+")"
+else if(B.c.q(a0,"already registered")||B.c.q(a0,"already been registered"))h.a="\u3053\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u306f\u3059\u3067\u306b\u767b\u9332\u3055\u308c\u3066\u3044\u307e\u3059\u3002"
+else if(B.c.q(a0,"rate limit"))h.a="\u8a66\u884c\u56de\u6570\u304c\u591a\u3059\u304e\u307e\u3059\u3002\u3057\u3070\u3089\u304f\u5f85\u3063\u3066\u304b\u3089\u518d\u8a66\u884c\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+m.S(new A.b9v(h,m))}else{i=h
 m.S(new A.b9w(m,i))}n.push(6)
 s=5
 break
@@ -132366,7 +132371,7 @@ A.b9u.prototype={
 $1(a){return null},
 $S:28}
 A.b9v.prototype={
-$0(){return this.a.at=this.b.a},
+$0(){return this.b.at=this.a.a},
 $S:0}
 A.b9w.prototype={
 $0(){return this.a.at="\u4e88\u671f\u3057\u306a\u3044\u30a8\u30e9\u30fc\u304c\u767a\u751f\u3057\u307e\u3057\u305f: "+A.k(this.b)},
