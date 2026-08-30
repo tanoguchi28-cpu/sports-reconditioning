@@ -39810,7 +39810,7 @@ var $async$bg5=A.o(function(a,b){if(a===1)return A.p(b,r)
 for(;;)switch(s){case 0:if($.ac==null)A.a9h()
 $.ac.toString
 s=2
-return A.n(A.aRs("",B.Wj,""),$async$bg5)
+return A.n(A.aRs("sb_publishable_zXq5pO11-6In_UVQgUyngQ_jrvKg1GQ",B.Wj,"https://mkohowzuouoextxbqqsj.supabase.co"),$async$bg5)
 case 2:if($.ac==null)A.a9h()
 q=$.ac
 q.toString
