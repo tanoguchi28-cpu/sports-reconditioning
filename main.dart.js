@@ -132747,12 +132747,12 @@ a0=A.aF(a0==null?null:J.T(a0,"full_name"))
 if(a0==null)a0=h.z
 if(a0==null)a0=""
 J.c4(d,"full_name",a0)
-J.c4(d,"role","staff")
+J.c4(d,"role","athletic_trainer")
 if(e!=null)J.c4(d,"org_id",e)
 s=12
 return A.n(a.hw(0,d),$async$qx)
 case 12:case 10:s=13
-return A.n(l.cz("team_members").X0(A.a7(["team_id",J.T(i,"id"),"profile_id",k,"role","staff"],t.N,t.z),"team_id,profile_id"),$async$qx)
+return A.n(l.cz("team_members").X0(A.a7(["team_id",J.T(i,"id"),"profile_id",k,"role","athletic_trainer"],t.N,t.z),"team_id,profile_id"),$async$qx)
 case 13:b.eT($.vf())
 b.eT($.GJ())
 d=m.c
@@ -133007,7 +133007,7 @@ d=l.cz("profiles")
 g=A.u(a2,a2)
 J.c4(g,"id",k.b.a)
 J.c4(g,"full_name",B.c.ci(a1.a.a))
-J.c4(g,"role","staff")
+J.c4(g,"role","athletic_trainer")
 if(h!=null)J.c4(g,"org_id",h)
 s=20
 return A.n(d.hw(0,g),$async$oQ)
